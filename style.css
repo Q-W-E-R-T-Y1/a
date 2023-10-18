@@ -1,0 +1,60 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.desktop .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/michael-abrahaym-astrophotography-monument-valley-1-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.desktop .image {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: lighten;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    height: 363px;
+    top: 220px;
+    left: 567px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 300px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .rectangle {
+    position: absolute;
+    width: 1456px;
+    height: 1024px;
+    top: 1024px;
+    left: 6px;
+    background-color: #1f1c2d;
+    filter: blur(11px);
+}
